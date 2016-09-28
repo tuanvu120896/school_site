@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+	font-size: 90%;
+}
+
+/*メニューのアクティブ化*/
+#headNavi .fontM a {
+	background: url(../img/bt_fsize_m_o.gif) no-repeat left top;
+	cursor: default;
+}

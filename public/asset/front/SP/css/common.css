@@ -1,0 +1,425 @@
+/* ===============================================
+	▼共通 (大枠・小枠)
+=============================================== */
+/* ━━━━ ▼大枠 ━━━━ */
+#wrapper {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* ━━━━ ▼小枠 ━━━━ */
+#container {
+    clear: both;
+	width: 100%;
+	background-color: #f9fafb;
+	padding: 12px 0 18px;
+	margin: 0 auto;
+}
+.frame {
+	width: 962px;
+	text-align: left;
+	position: relative;
+	margin: 0 auto;
+}
+#contents {
+	width: 100%;
+}
+/* ━━━━ ▼メイン枠 ━━━━ */
+#mainArea {
+	float: right;
+	width: 655px;
+}
+#mainArea2 {
+	width: 100%;
+}
+#mainPad {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+#mainPad #mainBox {
+	background: url(dotline.gif) repeat-x left top;
+	padding: 15px 0 0;
+}
+
+/* ===============================================
+	▼共通 (パン)
+=============================================== */
+#pan {
+	width: 100%;
+	padding: 0 0 12px;
+}
+#pan li {
+	float: left;
+	background: url(arrow02.gif) no-repeat left center;
+	padding: 0 10px 0 15px;
+}
+#pan li#home {
+	background: none;
+	padding: 2px 10px 0 0;
+}
+#pan li a {
+	color: #333;
+	text-decoration: none;
+}
+#pan li a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+
+/* ===============================================
+	▼共通 (左メニュー)
+=============================================== */
+#contents #leftMenu {
+	float: left;
+	width: 280px;
+	height: 352px;
+}
+#contents #leftMenu #titleMenu{
+	height: 35px;
+}
+#contents #leftMenu #menu {
+	background-color: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 15px 15px;
+}
+#contents #leftMenu #menu li {
+	background: url(dotline.gif) repeat-x left bottom;
+	padding: 15px 0;
+}
+#contents #leftMenu #menu li#end {
+	background: none;
+}
+#contents #leftMenu #menu li a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	background: url(lm_arrow.gif) no-repeat left center;
+	padding: 0 0 0 25px;
+}
+#contents #leftMenu #menu li span.arrow {
+	display: block;
+	background: url(lm_arrow02.gif) no-repeat left center;
+	padding: 0 0 0 25px;
+}
+#contents #leftMenu #menu li a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+#contents #leftMenu #menu li.crt a {
+	color: #2e97d8;
+	text-decoration: none;
+}
+#contents #leftMenu #menu li.second {
+	background: none;
+	padding: 6px 0px 6px 25px;
+}
+#contents #leftMenu #menu li.second a,
+#contents #leftMenu #menu li.second-end a {
+	background: url(hm_arrow.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+}
+#contents #leftMenu #menu li.second-end {
+	background: url(dotline.gif) repeat-x left bottom;
+	padding: 6px 0px 6px 25px;
+}
+
+/* ===============================================
+	▼共通 (タイトル)
+=============================================== */
+h2.title {
+	font-size: 160%;
+	font-weight: bold;
+	background: url(h2_title_bk.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+	margin: 0 0 10px;
+}
+h3.title {
+	color: #fff;
+	font-weight: bold;
+	font-size: 110%;
+	background-color: #3b9dda;
+	padding: 3px 15px;
+	margin: 0 0 10px;
+}
+.h3Box h3 {
+	float: left;
+}
+.h3Box p {
+	float: right;
+}
+h3.title2 {
+	font-weight: bold;
+	font-size: 110%;
+	border-left: 4px solid #3b9dda;
+	border-bottom: 1px solid #ccc;
+	padding: 3px 15px;
+	margin: 0 0 10px;
+}
+/* ===============================================
+	▼共通 (印刷ボタン)
+=============================================== */
+#btPrint {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* ===============================================
+	▼共通 (ページトップ)
+=============================================== */
+.pagetop {
+	width: 100%;
+	text-align: right;
+	padding: 20px 0 5px;
+}
+
+/* ===============================================
+	▼共通 (フッター)
+=============================================== */
+#footer {
+	width: 100%;
+	height: 39px;
+	background: #2c98d9 url(footer_bk.gif) repeat-x left top;
+	text-align: center;
+
+}
+#footer #copy {
+	color: #fff;
+	font-size: 10pt;
+	padding: 10px 0 0;
+}
+
+
+/* ===============================================
+	▼共通 (テーブル)
+=============================================== */
+.tableStyle01 {
+	width: 100%;
+	background-color: #ccc;
+}
+.tableStyle01 th {
+	white-space: nowrap;
+	background-color: #ededed;
+	padding: 10px;
+}
+.tableStyle01 td {
+	background-color: #fff;
+	padding: 10px;
+}
+
+table.middle th,
+table.middle td {
+	vertical-align: middle;
+}
+table td.center {
+	text-align: center;
+}
+.tableStyleNone td {
+	background-color: #fff;
+	padding: 0;
+}
+
+/* ━━━━ ▼tableStyle02 ━━━━ */
+.tableStyle02 {
+	width: 100%;
+	background-color: #ccc;
+}
+.tableStyle02 th {
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ededed;
+	padding: 10px;
+}
+.tableStyle02 td {
+	background-color: #fff;
+	padding: 10px;
+}
+
+/* ━━━━ ▼tableStyle03 ━━━━ */
+.tableStyle03 {
+	width: 100%;
+	background-color: #ccc;
+}
+.tableStyle03 th {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ededed;
+	padding: 5px;
+}
+.tableStyle03 td {
+	vertical-align: middle;
+	background-color: #fff;
+	padding: 5px;
+}
+.tableStyle03 td.center {
+	text-align: center;
+}
+
+/* ━━━━ ▼tableStyle04 ━━━━ */
+.tableStyle04 {
+	width: 100%;
+	background-color: #ccc;
+}
+.tableStyle04 th {
+	text-align: left;
+	vertical-align: top;
+	background-color: #ededed;
+	padding: 5px;
+}
+.tableStyle04 td {
+	text-align: left;
+	vertical-align: top;
+	background-color: #fff;
+	padding: 5px;
+}
+.tableStyle04 th.center {
+	vertical-align: middle;
+	text-align: center;
+}
+.tableStyle04 td.center {
+	text-align: center;
+}
+.tableStyle04 td.right {
+	text-align: right;
+}
+
+/* ━━━━ ▼tableStyle04 ━━━━ */
+.tableStyle05 {
+	width: 100%;
+	background-color: #ccc;
+}
+.tableStyle05 th {
+	width: 25%;
+	color: #fff;
+	vertical-align: middle;
+	background-color: #2c98d9;
+	padding: 10px 5px;
+}
+.tableStyle05 td {
+	width: 75%;
+	background-color: #fff;
+	vertical-align: middle;
+	padding: 10px 5px;
+}
+.tableStyle05 td #station {
+	padding: 5px 0 0 6em;
+}
+
+/* ===============================================
+	▼共通 (ボックス)
+=============================================== */
+.borderBox {
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+.borderBoxPad {
+	padding: 15px;
+}
+.contactBox {
+	width: 100%;
+	background: url(dotline.gif) repeat-x left top;
+	padding: 10px 0;
+}
+.contactBox dt {
+	float: left;
+	width: 9em;
+}
+.contactBox dd {
+	float: left;
+}
+.lineBox {
+	width: 100%;
+	background: url(dotline.gif) repeat-x left bottom;
+	padding: 10px 0;
+}
+.grayBox {
+	background-color: #f1f1f1;
+}
+
+/* ===============================================
+	▼共通 (リスト)
+=============================================== */
+
+/*
+ol.number li {
+	list-style-type: decimal;
+	padding: 0 0 10px;
+	margin: 0 0 0 2em;
+}
+ol.number02 li {
+	list-style-type: cjk-ideographic;
+	padding: 0 0 10px;
+	margin: 0 0 0 2em;
+}
+*/
+
+ol{
+	padding-left : 2em;
+}
+ol.number li {
+	list-style-type: decimal;
+	padding: 0 0 10px;
+	margin: 0 0 0 2em;
+}
+ol.number02 li {
+	list-style-type: cjk-ideographic;
+	padding: 0 0 10px;
+	margin: 0 0 0 2em;
+}
+
+ul.circle li {
+	font-weight: normal;
+	list-style-type: circle;
+	padding: 5px 0;
+	margin: 0 0 0 1em;
+	/list-style-position: inside;
+}
+ul.arrow li {
+	background: url(hm_arrow.gif) no-repeat left center;
+	padding: 0 0 0 10px;
+	margin: 0 0 5px;
+}
+ul.arrow li a {
+	background: none;
+	padding: 0;
+}
+
+/* ===============================================
+	▼共通 (フロート)
+=============================================== */
+.floatBox {
+	width: 100%;
+}
+.floatBox .floL {
+	float: left;
+}
+.floatBox .floR {
+	float: right;
+}
+.colum2 {
+	width: 100%;
+}
+.colum2 .flL {
+	float: left;
+	width: 50%;
+	/width: 49%;
+}
+.colum2 .flR {
+	float: right;
+	width: 50%;
+	text-align: right;
+	/width: 49%;
+}
+
+/* ===============================================
+	▼共通 (リンク)
+=============================================== */
+a.arrow {
+	background: url(hm_arrow.gif) no-repeat left center;
+	padding: 0 0 0 10px;
+}

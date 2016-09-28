@@ -1,0 +1,23 @@
+/* ===============================================
+	▼印刷用CSS
+=============================================== */
+@media print {
+body.print #header #headMenu,
+body.print #header #headNavi,
+body.print #header #headNavi,
+body.print #gnavi,
+body.print #container #pan,
+body.print #contents #btPrint,
+body.print #contents #mainArea .pagetop,
+body.print #contents #leftMenu { 
+	display: none;
+}
+body.print #header {
+	height: 100px;
+}
+body.print #contents #mainArea { 
+	float: none;
+	width: 655px;
+	margin: 0 auto;
+}
+}

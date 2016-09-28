@@ -1,0 +1,59 @@
+#listSchool {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+
+}
+
+#listSchool thead tr  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+    vertical-align: middle;
+    color: #000;
+}
+#listSchool tbody tr  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+    vertical-align: middle;
+    color: #000;
+}
+
+#listSchool tbody tr td  a {
+    color: cornflowerblue;
+}
+#listSchool tbody tr td  a:hover{
+    color: grey;
+}
+
+/*details*/
+#table-details {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    font-family: arial, sans-serif;
+}
+
+.cell1 {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+    vertical-align: middle;
+    color: #000;
+}
+.cell2 {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+    vertical-align: middle;
+    color: #000;
+    background-color: #F5F5F5;
+}
+.more-info {
+    color: #000000;
+}
+.more-info:hover {
+    color: #2e97d8;
+}

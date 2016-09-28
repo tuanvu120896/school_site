@@ -1,0 +1,689 @@
+/* ===============================================
+	▼公開資料　＞　設置基準
+=============================================== */
+table#basic {
+	width: 400px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 0 auto;
+}
+table#basic th {
+	width: 50%;
+	font-weight: normal;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+}
+table#basic td {
+	border-left: 1px solid #ccc;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+}
+
+/* ===============================================
+	▼日本語教育機関を探す　＞　50音順で探す
+=============================================== */
+#searchKana {
+	width: 100%;
+	background-color: #ccc;
+}
+#searchKana td {
+	width: 10%;
+	text-align: center;
+	background-color: #fff;
+	padding: 10px 5px;
+}
+#searchKana td.crt {
+	width: 10%;
+	background-color: #2c98d9;
+}
+#searchKana td.crt a {
+	color: #fff;
+}
+/* ━━━━ ▼searchKana02 ━━━━ */
+.searchKana02 {
+	width: 100%;
+	background-color: #ccc;
+}
+.searchKana02 td {
+	width: 20%;
+	text-align: center;
+	background-color: #fff;
+	padding: 5px;
+}
+.searchKana02 td.crt {
+	font-weight: bold;
+	background-color: #efefef;
+}
+.searchKana02 td.crt a {
+	color: #333;
+}
+/* ━━━━ ▼kanaDetail ━━━━ */
+.kanaDetail {
+	width: 100%;
+	border: 1px solid #efefef;
+	margin: 0 0 10px;
+}
+.kanaDetail th {
+	width: 50%;
+	text-align: left;
+	background-color: #fff;
+	padding: 5px;
+}
+.kanaDetail td {
+	width: 50%;
+	text-align: left;
+	background-color: #fff;
+	padding: 5px;
+}
+
+/* ===============================================
+	▼日本語教育機関を探す　＞　条件で探す
+=============================================== */
+#searchTerms {
+	width: 100%
+}
+#searchTerms h3 {
+	font-size: 120%;
+}
+#searchTerms #searchTermsPad {
+	background-color: #efefef;
+	padding: 15px;
+}
+#searchTerms table {
+	width: 100%;
+	background-color: #ccc;
+}
+#searchTerms th {
+	width: 25%;
+	color: #fff;
+	vertical-align: middle;
+	background-color: #2c98d9;
+	padding: 10px 5px;
+}
+#searchTerms td {
+	width: 75%;
+	background-color: #fff;
+	vertical-align: middle;
+	padding: 10px 5px;
+}
+#searchTerms td #station {
+	padding: 5px 0 0 6em;
+}
+#searchTerms #button {
+	text-align: center;
+	padding: 10px 0 0;
+}
+#searchTerms #button input {
+	padding: 5px;
+}
+
+/* ━━━━ ▼kanaDetail ━━━━ */
+.termsDetail {
+	width: 100%;
+	border: 1px solid #efefef;
+	margin: 15px 0 0;
+}
+.termsDetail th {
+	width: 50%;
+	text-align: left;
+	background-color: #fff;
+	padding: 5px;
+}
+.termsDetail td {
+	width: 50%;
+	text-align: left;
+	background-color: #fff;
+	padding: 5px;
+}
+.termsDetail th.title {
+	background-color: #efefef;
+	text-align: left;
+	padding: 5px;
+}
+
+/* ===============================================
+	▼日本語教育機関を探す　＞　地域・都道府県で探す
+=============================================== */
+#searchArea {
+	width: 100%;
+	border: 1px solid #ffffff;
+}
+#searchAreaPad {
+	position: relative;
+	padding: 15px;
+}
+#searchArea #areajapan {
+	position: absolute;
+	padding: 10px 0 0;
+}
+#searchArea #areajapan ul {
+	float: left;
+	width: 100px;
+	font-size: 12px;
+}
+#searchArea #areajapan ul a {
+	color: #333;
+}
+#searchArea #areajapan ul a:hover {
+	color: #777;
+}
+#searchArea #mapSearch {
+	width: 100%;
+	margin: 100px 0 0;
+}
+#searchArea #mapSearch td {
+	width: 6%;
+	font-size: 10pt;
+	text-align: center;
+	vertical-align: middle;
+	padding: 3px 0;
+}
+#searchArea #mapSearch td a {
+	color: #333;
+}
+#searchArea #mapSearch td a:hover {
+	color: #777;
+}
+
+.bgc1 {
+	background-color: #c6ecec;
+}
+.bgc2 {
+	background-color: #ffd1a4;
+}
+.bgc3 {
+	background-color: #c7e7be;
+}
+.bgc4 {
+	background-color: #ffea97;
+}
+.bgc5 {
+	background-color: #e1c4c4;
+}
+.bgc6 {
+	background-color: #ff9999;
+}
+.bgc7 {
+	background-color: #ff9999;
+}
+.bgc8 {
+	background-color: #e0beff;
+}
+
+/* ━━━━ ▼areaSearch ━━━━ */
+#areaSearch {
+	width: 100%;
+	font-size: 80%;
+	background-color: #efefef;
+	margin: 10px 0 0;
+}
+#areaSearch th {
+	width: 25%;
+	vertical-align: middle;
+	padding: 5px;
+}
+#areaSearch th a {
+	color: #333;
+}
+#areaSearch th a:hover {
+	color: #777;
+}
+#areaSearch td {
+	width: 75%;
+	background-color: #fff;
+	vertical-align: middle;
+	padding: 5px;
+}
+#areaSearch td a {
+	margin: 0 10px 0 0;
+}
+#areaSearch tbody tr td a {
+	cursor: hand;
+	color: blue;
+	text-decoration: underline;
+
+}
+/* ===============================================
+	▼お知らせ　＞　トピックス＆お知らせ
+=============================================== */
+.newsMenu {
+	width: 100%;
+	background-color: #ccc;
+	margin: 0 0 20px;
+}
+.newsMenu td {
+	text-align: center;
+	background-color: #fff;
+	padding: 10px 5px;
+}
+.newsMenu td.crt {
+	background-color: #2c98d9;
+}
+.newsMenu td.crt a {
+	color: #fff;
+}
+
+/* ━━━━ ▼ニュースリスト ━━━━ */
+.newsList {
+	padding: 10px 10px 20px;
+}
+.newsList li {
+	background: url(../img/top/newsline.gif) no-repeat left bottom;
+	padding: 5px 5px;
+}
+.newsList li.end {
+	background: none;
+}
+.newsList li p {
+	padding: 8px 0;
+}
+.newsList li p.member {
+	background: url(../img/icon_member.gif) no-repeat right center;
+	padding: 8px 90px 8px 0;
+}
+.newsList li .date {
+	display: block;
+	float: left;
+	width: 7em;
+}
+.newsList li a {
+	color: #333;
+	display: block;
+	float: left;
+	width: 75%;
+	text-decoration: none;
+}
+.newsList li p.member a {
+	width: 70%;
+}
+.newsList li a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+.newsList li a.arrow {
+	background: url(../img/arrow.gif) no-repeat left 5px;
+	padding: 0 0 0 20px;
+}
+.newsList li a.link {
+	background: url(../img/icon_link.gif) no-repeat left 5px;
+	padding: 0 0 0 20px;
+}
+
+/* ━━━━ ▼ニュース詳細 ━━━━ */
+h3.newsTitle {
+	font-weight: bold;
+	font-size: 110%;
+	padding: 0 0 15px;
+}
+#newsDetail #bt_back {
+	text-align: center;
+	padding: 15px 0 0;
+}
+/* ===============================================
+	▼お知らせ　＞　刊行物のご案内
+=============================================== */
+#publishList .listBox {
+	width: 100%;
+	background: url(../img/dotline.gif) repeat-x left bottom;
+	padding: 10px 0;
+}
+#publishList .listBox dt {
+	float: right;
+	width: 82%;
+}
+#publishList .listBox dd {
+	float: left;
+	width: 18%;
+}
+#publishList .listBox dt span {
+	display:block;
+	color: #cc6666;
+}
+#publishList .listBox dt a {
+	color: #333;
+	font-size: 120%;
+	text-decoration: none;
+}
+#publishList .listBox dt a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+.publishBox {
+	width: 100%;
+	background: url(../img/dotline.gif) repeat-x left bottom;
+	padding: 10px 0;
+}
+.publishBox .img {
+	float: left;
+	width: 100px;
+	padding: 10px 0 0;
+}
+.publishBox .text {
+	float: right;
+	width: 500px;
+	padding: 10px 0 0;
+}
+.publishBox h3 {
+	color: #333;
+	font-size: 120%;
+}
+.publishBox h4 {
+	color: #cc6666;
+	font-size: 80%;
+	font-weight: normal;
+}
+#publish7 .floL {
+	float: left;
+	width: 202px;
+}
+#publish7 .floR {
+	float: right;
+	width: 410px;
+}
+#publish7 .floR p {
+	text-align: center;
+	padding: 15px 0;
+}
+#publish7 .floR img {
+	vertical-align: top;
+	padding: 0 1px;
+}
+
+/* ===============================================
+	▼お知らせ　＞　日本語教育研究大会
+=============================================== */
+#convBlock {
+	width: 100%;
+	padding: 25px 0 0;
+}
+#convBlock dl {
+	width: 48%;
+	float: left;
+	border: 1px solid #cccccc;
+	margin: 0 0 15px;
+}
+#convBlock dl dt {
+	color: #fff;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+	background-color: #3b9dda;
+	padding: 3px 15px;
+}
+#convBlock dl dd {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+#convBlock dl.end {
+	float: right;
+}
+#convPic {
+	width: 85%;
+	padding: 0 0 20px;
+	margin: 0 auto;
+}
+
+/* ===============================================
+	▼審査・認定　
+=============================================== */
+/* ━━━━ ▼審査・認定事業 ━━━━ */
+#reviewBlock dl {
+	width: 192px;
+	float: left;
+	border: 1px solid #cccccc;
+	margin: 0 15px 10px 0;
+}
+#reviewBlock dl dt {
+	color: #fff;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+	background-color: #3b9dda;
+	padding: 3px 15px;
+}
+#reviewBlock dl dd {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+#reviewBlock dl dd .arrow a {
+	display: block;
+	color: #333333;
+	background: url(../img/hm_arrow.gif) no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#reviewBlock dl.end {
+	margin: 0 0 10px 0;
+}
+
+/* ===============================================
+	▼会員校名簿
+=============================================== */
+#tabMenu li {
+	float: left;
+	width: 140px;
+	font-size: 14px;
+}
+#tabMenu li a {
+	width: 130px;
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px 0;
+	text-decoration: none;
+}
+#tabMenu li#cur a {
+	background-color: #ededed;
+	border-bottom: 1px solid #ededed;
+}
+
+#rosterSearch {
+	width: 100%;
+	background-color: #ededed;
+	border: 1px solid #ccc;
+	margin: -1px 0 25px;
+}
+
+/* ===============================================
+	▼会員専用様ページ
+=============================================== */
+#memberBlock a {
+	color: #333;
+	text-decoration: underline;
+}
+#memberBlock a:hover {
+	color: #777;
+}
+#memberBlock .tableStyle03 td a {
+	color: #333;
+	text-decoration: none;
+}
+#memberBlock .tableStyle03 td a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+#memberBlock h3.title {
+	color: #333;
+	font-weight: bold;
+	font-size: 110%;
+	background: none;
+	padding: 10px 0;
+	margin: 0;
+}
+#memberBlock h3.title a {
+	color: #333;
+	text-decoration: none;
+}
+#memberBlock h3.title a:hover {
+	color: #777;
+}
+#memberBlock h3.title .small {
+	color: #ff6600;
+	font-weight: normal;
+}
+#memberBlock h4.title {
+	color: #fff;
+	font-weight: bold;
+	font-size: 100%;
+	background-color: #3b9dda;
+	padding: 2px 15px;
+	margin: 0 0 10px;
+}
+#memberBlock .listFloat li {
+	display: inline;
+	background: url(../img/hm_arrow.gif) no-repeat left center;
+	padding: 0 15px 0 10px;
+}
+
+#memberBlock .listFloat li .newIcn {
+	color:red;
+	font-size: 10px;
+	padding-right: 3px;
+	font-weight: bold;
+}
+
+/* ===============================================
+	▼会員専用様ページ　＞　会合等の予定
+=============================================== */
+#memberScedule {
+	width: 100%;
+	padding: 15px 0;
+}
+#memberScedule li {
+	display: inline;
+	padding: 0 15px;
+}
+#memberScedule li a {
+	background: url(../img/arrow.gif) no-repeat left center;
+	padding: 0 0 0 15px;
+}
+
+/* ===============================================
+	▼会員専用様ページ　＞　対応事例集
+=============================================== */
+#jireiMenu {
+	border: 1px solid #ccc;
+	padding: 15px 5px 5px 15px;
+	margin: 0 0 20px;
+}
+#jireiMenu li {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+#jireiMenu li a {
+	background: url(../img/arrow02.gif) no-repeat left center;
+	padding: 0 0 0 15px;
+}
+
+.tableJirei {
+	width: 100%;
+	background-color: #ccc;
+	margin: 5px 0 0px;
+}
+.tableJirei th {
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ededed;
+	padding: 5px;
+}
+.tableJirei td {
+	background-color: #fff;
+	padding: 5px;
+}
+.tableJirei td table {
+	width: 100%;
+}
+
+/* ===============================================
+	▼会員専用様ページ　＞　日本語能力試験早期成績照会制度
+=============================================== */
+#jlpBox {
+	width: 100%;
+	height: 370px;
+	background: url(../../member/img/jlp-test.gif) no-repeat center top;
+	position: relative;
+}
+#jlpBox .number {
+	position: absolute;
+	top: 130px;
+	left: 200px;
+}
+
+/* ===============================================
+	▼会員専用様ページ　＞　資料と様式集
+=============================================== */
+#memberForm td.title {
+	position: relative;
+	padding-left: 50px;
+}
+#memberForm td.title .icon {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+
+/* ===============================================
+	▼ログインページ
+=============================================== */
+#loginBox {
+	width: 500px;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+/* ===============================================
+	▼検索結果
+=============================================== */
+h2.collegeTitle {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5px;
+}
+h2.collegeTitle .small {
+	font-size: 50%;
+}
+
+/* ===============================================
+	▼サイトマップ
+=============================================== */
+#siteMap {
+	width: 100%;
+}
+#siteMap .floL {
+	float: left;
+	width: 33%;
+}
+#siteMap ul {
+	padding: 10px;
+}
+#siteMap ul li {
+	padding: 5px 0 5px 15px;
+}
+#siteMap ul li a {
+	color: #333;
+	text-decoration: none;
+	background: url(../img/hm_arrow.gif) no-repeat left center;
+	padding: 0 0 0 15px;
+}
+#siteMap ul li a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+#siteMap ul li.title {
+	font-weight: bold;
+	border-top: 2px solid #2c98d9;
+	background: url(../img/dotline.gif) repeat-x left bottom;
+	padding: 10px 0;
+}
+
+
+
+
